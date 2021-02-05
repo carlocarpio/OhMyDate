@@ -382,6 +382,7 @@ PODS:
     - nanopb/encode (= 2.30906.0)
   - nanopb/decode (2.30906.0)
   - nanopb/encode (2.30906.0)
+  - paper-onboarding (6.1.5)
   - PromisesObjC (1.2.12)
 
 DEPENDENCIES:
@@ -396,6 +397,7 @@ DEPENDENCIES:
   - Firebase/Storage (= 7.2-M1)
   - GoogleSignIn
   - JGProgressHUD
+  - paper-onboarding
 
 SPEC REPOS:
   trunk:
@@ -427,6 +429,7 @@ SPEC REPOS:
     - JGProgressHUD
     - leveldb-library
     - nanopb
+    - paper-onboarding
     - PromisesObjC
 
 SPEC CHECKSUMS:
@@ -458,8 +461,9 @@ SPEC CHECKSUMS:
   JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
+  paper-onboarding: fede1799b1da6988f3788e3b71654583c6f3bce1
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: 517eeaf7859eecafee5e19dcf6af809b4cd74fdd
+PODFILE CHECKSUM: 4d46ed6d730eff4c6acc657c6fc4a690e5e97bd1
 
 COCOAPODS: 1.10.1

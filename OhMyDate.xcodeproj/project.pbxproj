@@ -20,6 +20,8 @@
 		99ADBC5025C584CF00D85251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ADBC4E25C584CF00D85251 /* Main.storyboard */; };
 		99ADBC5225C584D100D85251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99ADBC5125C584D100D85251 /* Assets.xcassets */; };
 		99ADBC5525C584D100D85251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ADBC5325C584D100D85251 /* LaunchScreen.storyboard */; };
+		99AE166D25CCFD7E00D60C72 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AE166C25CCFD7E00D60C72 /* OnboardingController.swift */; };
+		99AE169125CD0C1C00D60C72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AE169025CD0C1C00D60C72 /* Constants.swift */; };
 		99B5905B25C968310064D5D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5905A25C968310064D5D3 /* Extensions.swift */; };
 		99B5907E25C970D00064D5D3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5907D25C970D00064D5D3 /* CustomTextField.swift */; };
 		99B5908125C9727C0064D5D3 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B5908025C9727C0064D5D3 /* AuthButton.swift */; };
@@ -46,6 +48,8 @@
 		99ADBC5125C584D100D85251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99ADBC5425C584D100D85251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99ADBC5625C584D100D85251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99AE166C25CCFD7E00D60C72 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		99AE169025CD0C1C00D60C72 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		99B5905A25C968310064D5D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		99B5907D25C970D00064D5D3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		99B5908025C9727C0064D5D3 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			children = (
 				99544DF325C6A81A00933B9E /* Authentication */,
 				9963257C25CC0AA10036EB75 /* HomeController.swift */,
+				99AE166C25CCFD7E00D60C72 /* OnboardingController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				99B5905A25C968310064D5D3 /* Extensions.swift */,
+				99AE169025CD0C1C00D60C72 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -315,6 +321,7 @@
 			files = (
 				99B5907E25C970D00064D5D3 /* CustomTextField.swift in Sources */,
 				9963258025CC3B850036EB75 /* Service.swift in Sources */,
+				99AE169125CD0C1C00D60C72 /* Constants.swift in Sources */,
 				99B5908425C994970064D5D3 /* DividerView.swift in Sources */,
 				99B5908125C9727C0064D5D3 /* AuthButton.swift in Sources */,
 				99544DF925C6A83E00933B9E /* RegisterController.swift in Sources */,
@@ -323,6 +330,7 @@
 				99ADBC4D25C584CF00D85251 /* ViewController.swift in Sources */,
 				99544DF525C6A82C00933B9E /* LoginController.swift in Sources */,
 				9963257D25CC0AA10036EB75 /* HomeController.swift in Sources */,
+				99AE166D25CCFD7E00D60C72 /* OnboardingController.swift in Sources */,
 				99ADBC4925C584CF00D85251 /* AppDelegate.swift in Sources */,
 				99438D7E25CACE7600F2D441 /* ResetPasswordController.swift in Sources */,
 				99ADBC4B25C584CF00D85251 /* SceneDelegate.swift in Sources */,

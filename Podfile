@@ -20,5 +20,6 @@ target 'OhMyDate' do
  pod 'GoogleSignIn'
  
  pod 'JGProgressHUD'
+ pod 'paper-onboarding'
 
 end
